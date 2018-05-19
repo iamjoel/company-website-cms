@@ -6,4 +6,5 @@
 * 关于我们。
 * 联系我们。
 
-基于 [keystone](https://github.com/keystonejs/keystone/) 来开发。
+基于 [strapi](https://strapi.io/) 来开发。
+

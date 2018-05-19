@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/companyinfo",
+      "handler": "Companyinfo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/companyinfo/:_id",
+      "handler": "Companyinfo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/companyinfo",
+      "handler": "Companyinfo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/companyinfo/:_id",
+      "handler": "Companyinfo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/companyinfo/:_id",
+      "handler": "Companyinfo.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

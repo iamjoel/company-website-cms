@@ -1,0 +1,33 @@
+{
+  "productType": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "product": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "xxxx": {
+        "appearance": ""
+      }
+    }
+  },
+  "producttype": {
+    "attributes": {
+      "products": {
+        "appearance": ""
+      }
+    }
+  },
+  "companyInfo": {
+    "attributes": {
+      "describe": {
+        "appearance": "WYSIWYG"
+      }
+    }
+  }
+}
