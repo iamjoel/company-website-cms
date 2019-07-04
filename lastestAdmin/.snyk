@@ -1,0 +1,56 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - strapi > strapi-generate-controller > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > strapi-generate-admin > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi-mongoose > strapi-utils > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > async > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > strapi-generate-service > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > strapi-generate-policy > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > strapi-generate-plugin > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > strapi-generate-new > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > strapi-generate-model > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > strapi-utils > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi-mongoose > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > strapi-generate > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > cheerio > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > strapi-generate-api > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > strapi-generate > async > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > strapi-generate-new > strapi-utils > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > strapi-generate-new > inquirer > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > strapi-generate > strapi-utils > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi-mongoose > strapi-utils > knex > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > strapi-utils > knex > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi-mongoose > mongoose > async > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > strapi-generate-new > strapi-utils > knex > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
+    - strapi > strapi-generate > strapi-utils > knex > lodash:
+        patched: '2019-07-04T09:00:18.002Z'
